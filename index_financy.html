@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Financy</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style_financy.css">
+    </head>
+    <body id="fundao">
+	<header>
+        		<img id="minilogo" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Logo_da_Africa_em_laranja_e_preto%2C_as_atuais_cores_da_Agência.png">
+		<p id="financy">Financy</p>
+	</header>
+	<article id="main">
+		<h1 id="descricao">Our<span style="color: orange"> new service</span> <br>mobile app to set <br>your financial plan</h1>
+	</article>
+	<article id="second">
+		<h2 id="descricao2">Making it possible to perform banking<br>activities anytime and anywhere using a<br>mobile device</h2>
+	</article>
+	<nav id="barrinhas">
+		<button id="botoes1" type="button" onclick="yourFunction()"></button>
+		<button id="botoes2" type="button" onclick="myFunction()"></button>
+		<button id="botoes3" type="button" onclick="ourFunction()"></button>
+		<button id="botoes4" type="button" onclick="lastFunction()"></button>
+	</nav>
+	<div id="start">
+		<button id="getStarted" type="button" onclick="location.href='financy_mainpage.html';">Get Started</button>
+	</div>
+   </body>
+   <script>
+	function myFunction() {
+	document.getElementById("fundao").style.backgroundImage = "url(orangepixel.jpeg)";
+	}
+	function yourFunction() {
+	document.getElementById("fundao").style.backgroundImage = "url(flordesol.jpg)";
+	}
+	function ourFunction(){
+	document.getElementById("fundao").style.backgroundImage = "url(fumacavermelha.png)";
+	}
+	function lastFunction(){
+	document.getElementById("fundao").style.backgroundImage = "url(testesmoke.png)";
+	}
+   </script>		
+</html>

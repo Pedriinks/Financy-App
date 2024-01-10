@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Transfer Page</title>
+	<meta challenge="UTF-8">
+	<link rel="stylesheet" type="text/css" href="transfer_page.css">
+    </head>
+    <body>
+        <header>
+		<a id="back" href="financy_mainpage.html"><</a>
+		<h1 id="sendmoney">Send Money</h1>
+	</header>
+	<article id="destino">
+		<img id="destinatario" src="https://img.freepik.com/fotos-premium/rosto-de-retrato-e-pensando-com-um-modelo-de-homem-em-estudio-em-um-fundo-escuro-para-moda-ou-estilo-mao-de-ideia-e-confiante-com-um-jovem-bonito-em-um-fundo-preto-para-contemplacao-ousada_590464-103221.jpg">
+			<h2 id="nome">Arnold Truta<br>**** **** 9018</h2>
+			<div id="listapai">
+		<div id="lista">
+			<select name="USD" id="cambio">
+			<option value="USD" selected>USD</option>
+			</select>
+		</div>
+		</div>
+	</article>
+	<nav id="valor">
+		<div id="inputar">
+   		 	<label id="cifrao" for="uname">$</label>
+    			<input type="number" id="uname" name="name" />
+ 		 </div>
+	</nav>
+	<div id="disponivel">
+		<p id="valor-disponivel">Your available money is <span style="color: orange">$9,777.20</span></p>
+	</div>
+	<section id="numbers">
+		<div class="numero">
+			<button class="botao" type="button" onclick="um()">1</button>
+		
+		</div>
+		<div class="numero">
+			<button class="botao" type="button" onclick="dois()">2</button>
+			
+		</div>
+		<div class="numero">
+			<button class="botao" type="button" onclick="tres()">3</button>
+		
+		</div>
+		<div class="numero">
+			<button class="botao" type="button" onclick="quatro()">4</button>
+		
+		</div>
+		<div class="numero">
+			<button class="botao" type="button" onclick="cinco()">5</button>
+		
+		</div>
+		<div class="numero">
+			<button class="botao" type="button" onclick="seis()">6</button>
+		
+		</div>
+		<div class="numero">
+			<button class="botao" type="button" onclick="sete()">7</button>
+		
+		</div>
+		<div class="numero">
+			<button class="botao" type="button" onclick="oito()">8</button>
+		
+		</div>
+		<div class="numero">
+			<button class="botao" type="button" onclick="nove()">9</button>
+		
+		</div>
+		<div class="numero">
+			<button class="botao" type="button" onclick="space()">00</button>
+		
+		</div>
+		<div class="numero">
+			<button class="botao" type="button" onclick="zero()">0</button>
+		
+		</div>
+		<div class="numero">
+			<button class="botao"><img id="botaoimg" src="https://super.so/icon/dark/arrow-left.svg"</button>
+		
+		</div>
+		<div id="finalizar">
+			<button id="fim" onclick="location.href='index_financy.html';">Send Money</button>
+		</div>
+	</section>
+    </body>
+	<script>
+		let valor = 0
+		var string = ' '
+		function um() {
+		valor = 1
+		document.getElementById("uname").value = valor
+		}
+		function dois() {
+		valor = 2
+		document.getElementById("uname").value = valor
+		}
+		function tres() {
+		valor = 3
+		document.getElementById("uname").value = valor
+		}
+		function quatro() {
+		valor = 4
+		document.getElementById("uname").value = valor
+		}
+		function cinco() {
+		valor = 5
+		document.getElementById("uname").value = valor
+		}
+		function seis() {
+		valor = 6
+		document.getElementById("uname").value = valor
+		}
+		function sete() {
+		valor = 7
+		document.getElementById("uname").value = valor
+		}
+		function oito() {
+		valor = 8
+		document.getElementById("uname").value = valor
+		}
+		function nove() {
+		valor = 9
+		document.getElementById("uname").value = valor
+		}
+		function zero() {
+		valor = 0
+		document.getElementById("uname").value = valor
+		}
+		function space() {
+		document.getElementById("uname").innerText = string
+		}
+	</script>
+</html>

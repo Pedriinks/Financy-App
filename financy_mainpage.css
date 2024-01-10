@@ -1,0 +1,459 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@200&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+}
+
+body, html{
+width: 100%;
+height: 100%;
+background-color: black;
+}
+header{
+width: 90%;
+height: 15%;
+display: flex;
+margin: 0 5%;
+}
+#perfil{
+width: 150px;
+height: 150px;
+border-radius: 50%;
+padding: 10px;
+margin-top: calc(6% - 10px);
+margin-left: 10px;
+}
+#welcome{
+font-size: 20px;
+font-family: 'Poppins', sans-serif;
+}
+#name{
+font-size: 30px;
+font-family: 'Regular400', sans-serif;
+}
+#perfilname{
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: white;
+font-family: 'Poppins', sans-serif;
+}
+#bell{
+width: 60%;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+#notifications:hover{
+padding: 3%;
+transition: 1s;
+background-color: black;
+}
+#bell>img{
+cursor: pointer;
+}
+
+#notifications{
+background-color: grey;
+width: 70px;
+height: 70px;
+border-radius: 50%;
+padding: 20px;
+color: white;
+}
+#artigo{
+height: 5%;
+width: 90%;
+display: flex;
+margin: 0 5%;
+}
+
+#balance{
+width: 200px;
+margin-top: 15%;
+margin-left: 15px;
+font-size: 20px;
+color: white;
+font-family: 'Poppins', sans-serif;
+}
+#circle{
+width: 100%;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+margin-right: 20px;
+
+}
+#circleson{
+padding: 10px;
+background-color: grey;
+border-radius: 50px;
+cursor: pointer;	
+}
+#setinha{
+float: left;
+}
+#ladoseta{
+float: right;
+color: white;
+}
+section#saldo{
+width: 90%;
+display: flex;
+height: 10%;
+align-items: center;
+margin: 0 5%;
+
+}
+#valor{
+margin-left: 5%;
+}
+
+
+
+
+#cifrao{
+float: left;
+color: orange;
+font-size: 80px;
+font-weight: bolder;
+font-family: montserrat;
+margin-top: 10px;
+padding-right: 15px;
+}
+#numero{
+float: right;
+font-size: 100px;
+color: white;
+font-family: Helvetica;
+font-weight: 700;
+}
+#listapai{
+width: 40%;
+display: flex;
+justify-content: flex-end;
+margin-left: 20px;
+}
+#lista{
+padding: 20px;
+background-color: transparent;
+text-decoration: none;
+border: none;
+
+}
+
+#cambio{
+background-color: black;
+color: white;
+border-color: none;
+font-size: 20px;
+padding: 20px;
+}
+#espaco{
+width: 90%;
+margin: 0 5%;
+background-color: #222222;
+;
+height: 5%; 
+border-radius: 40px;
+margin-bottom: 5%;
+}
+#meio{
+display: flex;
+justify-content: space-around;
+padding-top: 35px;
+flex-wrap: nowrap;
+}
+.textomeio{
+font-size: 35px;
+float: right;
+font-family: Montserrat;
+color: white;
+text-decoration: none;
+}
+.textomeio:hover{
+text-decoration: underline solid white 2px;
+}
+#espaco:hover{
+background-color: blue;
+transition: 1s;
+}
+.textoimg{
+float: left;
+color: white;
+}
+#plan{
+width: 90%;
+height: 10%;
+display: flex;
+margin: 0 5%;
+}
+#emojidiv{
+width: 15%;
+padding: 50px;
+background-color: #222222;
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+border-radius: 50px;
+align-items: center;
+}
+#emojidiv:hover{
+background-color: #0C0C0C;
+border: solid white 1px;
+transition: 1s;
+cursor: pointer;
+}
+#emoji{
+width: 80px;
+height: 80px;
+text-align: center;
+font-size: 50px;
+padding: 10px;
+background-color: #383838;
+border-radius: 50%;
+}
+#textoDoEmoji{
+font-size: 25px;
+text-align: center;
+font-family: Montserrat;
+color: white;
+font-weight: 200;
+}
+#rostos{
+width: 80%;
+height: 100%;
+background-color: #FF7F00;
+margin-left: 3.5%;
+border-radius: 50px;
+}
+#rostos:hover{
+background-color: black;
+border: white dashed 1px;
+transition: 1s;
+}
+#recents{
+color: white;
+font-size: 30px;
+font-family: Montserrat;
+margin-top: 20px;
+margin-left: 20px;
+font-weight: 100;
+}
+#faces{
+display: flex;
+justify-content: space-around;
+align-items: flex-end;
+margin-top: 7%;
+}
+
+.smallfaces{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+cursor: pointer;
+}
+#finalsection{
+width: 90%;
+margin: 5% 5% 0 5%;
+height: 55%;
+background-color: #f6f6f6;
+border-radius: 80px;
+}
+#umPontoUm{
+display: flex;
+justify-content: space-between;
+margin: 0 3%;
+height: 11%;
+
+align-items: flex-end;
+}
+.finalballons{
+margin: 0 3%;
+height: 21.5%;
+margin-top: 4%;	
+box-shadow: 5px;
+border-radius: 50px;
+display: flex;
+background: #ffffff;
+}
+.finalballons:hover{
+cursor: pointer;
+}
+.footerimgs{
+border-radius: 50%;
+height: 150px;
+width: 150px;
+margin-top: 5%;
+margin-left: 5%;
+
+}
+.brandname{
+margin-top: 10%;
+margin-left: 35px;
+}
+.cash{
+margin-top: 10%;
+margin-left: 35px;
+margin-left: 30%;
+}
+#options{
+width: 100%;
+display: flex;
+background-color: black;
+margin-top: -5%;
+border-radius: 50px;
+border: none;
+}
+.casas{
+background-color: #FFFFFF;
+width: 30%;
+height: 230px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+#bordaUm{
+border-radius: 0 0 0 50px;
+}
+#bordaDois{
+border-radius: 0 0 50px 0;
+}
+.homezinho{
+width: 80px;
+height: 80px;
+}
+
+#transacao{
+font-family: "Montserrat";
+font-size: 40px;
+}
+#verTudo{
+font-size: 30px;
+font-family: "Montserrat";
+color: #bababa;
+}
+.brandname{
+font-family: "Montserrat";
+font-size: 25px;
+}
+.cash{
+font-family: "Montserrat";
+font-size: 25px;
+margin-right: 20px;
+text-align: end;
+}
+
+#voltaHome:hover{
+background-color: black;
+border-radius: 20px;
+font-weight: bolder;
+transition: 1s;
+}
+
+/* DESKTOP */
+
+@media only screen and (min-width : 1100px) {
+
+body{
+margin: 0;
+}
+header{
+padding-bottom: 15%;
+flex-direction: row;
+justify-content: flex-start;
+background-color: orange;
+width: 90%;
+border-radius: 0 0 50px 50px;
+padding-bottom: 12%;
+}
+
+#perfil{
+position: absolute;
+left: 16%;
+top: -3%;
+cursor: pointer;
+}
+#perfilname{
+margin-top: 12%;
+text-align: right;
+margin-left: 1%;
+}
+#bell{
+display: flex;
+justify-content: flex-end;
+margin-top: 8%;
+margin-left: 25%;
+
+}	
+#notifications{
+width: 50px;
+height: 50px;
+}
+
+#artigo{
+padding-bottom: 10%;
+}
+#balance{
+font-size: 40px;
+}
+#circle{
+margin-top: 9%;
+}
+#saldo{
+padding-bottom: 10%;
+}
+
+#valor{
+margin-left: -0.5%;
+}
+#lista{
+margin-right: 70%;
+}
+#espaco{
+height: 13%;
+}
+#plan{
+padding-bottom: 15%;
+}
+#emojidiv{
+height: 230%;
+}
+#rostos{
+height: 350%;
+
+}
+
+#faces{
+flex-direction: row-reverse;
+}
+.smallfaces{
+width: 150px;
+height: 150px;
+}
+#finalsection{
+height: 150%;
+}
+#options{
+display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
